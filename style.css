@@ -1,0 +1,206 @@
+@font-face {
+    font-family: holmes;
+    src: url(./sherlock_holmes/SHERLOCK\ HOLMES\ font.txt);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+#body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    position: fixed;
+    background: url(./picture/5a3a5264463b2784562d56e58ef2e5ec.jpg);
+    display: flex;
+    background-size: cover;
+    font-family: holmes;
+    color:aliceblue ;
+    font-size: 2vw;
+}
+#text{
+    font-family: holmes;
+    color:aliceblue ;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    margin-right: 20vw;
+    text-align: justify;
+
+}
+#text2{
+    font-family: holmes;
+    color:rgb(253, 254, 255) ;
+    font-size: 2vw;
+    /* margin-top: 25vw; */
+    margin-left: 10vw;
+    margin-right: 20vw;
+    text-align: justify;
+    display: flex;
+}
+/* #body img{
+    height: 100vh;
+    width: 100vw;
+  
+} */
+.img
+{
+    height:20vw;
+    margin-top: 3vw;
+    /* margin-left: 10vw; */
+   
+}
+.bar{
+    height: 15vh;
+    width: 80vw;
+    background-color:white;
+    border-radius: 100px;
+    margin-left: 10vw;
+    margin-top: 75vh;
+    position: absolute;
+    display: flex;
+    gap: 9vw;
+    padding-left:4.5vw ;
+    padding-top: 0.8vw;
+    opacity: 0.7;
+}
+.options{
+    background-color:blue;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 100px;
+    scale: 1;
+    opacity: 1;
+    
+}
+.highlight{
+    scale : 1.2;
+    background-color: green;
+}
+#body1{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:green; */
+    background:url(./picture/53a20d10bd822fa8663d5dbd0d6e7312.jpg);
+    background-size: cover;
+    position: absolute;
+
+
+
+}
+.box{
+    height: 60vh;
+    width: 70vw;
+    background-color:rgba(0, 0, 0, 0.385);
+    opacity: 1;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    padding: 1vh;
+    overflow-y: scroll;
+    border-radius: 50px;
+    z-index: 1;
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.audio{
+    height:8vh;
+    width: 68.9vw;
+    background-color:rgba(0, 0, 0, 0.677);
+    margin-bottom: 1vh;
+    font-family: holmes;
+    font-weight: 200;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+    border-radius: 100px;
+    color: aliceblue;
+    
+    
+}
+#body2{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:green; */
+    background:url(./picture/53a20d10bd822fa8663d5dbd0d6e7312.jpg);
+    background-size: cover;
+    position: absolute;
+
+
+
+}
+#box1{
+    height: 50vh;
+    width: 70vw;
+    background-color:rgba(0, 0, 0, 0.385);
+    opacity: 1;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    padding: 4vh;
+    overflow-y: scroll;
+    border-radius: 50px;
+    z-index: 1;
+    display: flex;
+    gap: 1.5vw;
+}
+#box1::-webkit-scrollbar{
+    display: none;
+}
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+
+.pdf,
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#body3{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:green; */
+    /* background:url(53a20d10bd822fa8663d5dbd0d6e7312.jpg); */
+    background-size: cover;
+    position: absolute;
+    display: wrap;
+              
+}
+#i1 img{
+    height: 10.42vw;
+}
+#i2 img{
+    height: 12.69vw;
+}
+#i3 img{
+    height: 10.03vw;
+}
+#i4 img{
+    height: 14vw;
+}
+#i5 img{
+    height: 8.74vw;
+}
+#body4{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:green; */
+    background:url(./picture/wallapaper2.jpg);
+    background-size: cover;
+    
+    
+}
